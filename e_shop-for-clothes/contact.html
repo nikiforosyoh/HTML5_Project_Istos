@@ -1,1 +1,168 @@
 <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Title Tag  -->
+		<title>Clothes Eshop Contact Us</title>
+		<!-- Meta Tag -->
+		<meta charset="UTF-8">
+		<!-- Favicon -->
+        <link rel="icon" type = "image/x-icon" href ="images/head_icon.png">
+		<!-- StyleSheet -->
+		<link rel="stylesheet" type="text/css" href="styles.css"> 
+	</head>	
+
+
+	<body>	
+
+		<header>
+			<!-- Logo -->
+			<a href="contact.html"><img src="images/head_icon.png" alt="#" width = "10%">
+				<h1>Clothes Eshop</h1>
+			</a>
+		</header>
+
+		<nav>
+			<!-- Navigation Menu -->
+			<ul class="menu">
+
+				<li class="active"><a href="index.html">Home</a></li>
+
+				<li><a href="product-categories.html">Categories</a></li>
+
+				<!-- Dropdown List -->
+				<ul class="dropdown">
+
+					<li><a href="products-man.html">Man</a></li>
+
+						<!-- Expanded List -->
+						<ul class="expanded">
+							<li><a href="products-man-tops.html">Tops</a></li>
+							<li><a href="products-man-trousers.html">Trousers</a></li>
+							<li><a href="products-man-shoes.html">Shoes</a></li>
+						</ul>
+
+					<li><a href="products-woman.html">Woman</a></li>
+						<!-- Expanded List -->
+						<ul class="expanded">
+							<li><a href="products-woman-tops.html">Tops</a></li>
+							<li><a href="products-woman-trousers.html">Trousers</a></li>
+							<li><a href="products-woman-shoes.html">Shoes</a></li>
+						</ul>
+
+					<li><a href="products-kids.html">Kids</a></li>
+						<!-- Expanded List -->
+						<ul class="expanded">
+							<li><a href="products-kids-tops.html">Tops</a></li>
+							<li><a href="products-kids-trousers.html">Trousers</a></li>
+							<li><a href="products-kids-shoes.html">Shoes</a></li>
+						</ul>
+				</ul>
+
+				<li><a href="about-us.html">About Us</a></li>
+
+				<li><a href="contact-us.html">Contact Us</a></li>
+			</ul>
+		</nav>
+
+
+		<main>
+
+			<section>
+                <h1>
+                    Contact us
+                </h1>
+                <p>
+                    Please do not hesitate to contact us if you have any questions or problems about our products and services.
+                </p>
+				<form method="POST" action="#">
+					<fieldset>
+						<legend> Contact Form</legend>
+
+						<fieldset>
+							
+							<legend> Your Contact Information</legend>
+							<label for="txt_name"> Your full name:</label>
+							<input type="text" id="txt_name" name="user_name">
+	
+							<label for="txt_email"> Your e-mail:</label>
+							<input type="email" id="txt_email" name="user_email">
+
+							<label for="txt_phone_number"> Your phone number:</label>
+							<input type="tel" id="txt_phone_number" name="user_phone_number" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+							required
+							min="1000000000" max="9999999999">
+
+						</fieldset>
+
+						<fieldset>
+							<legend> Products Information</legend>
+							
+							<label for="txt_product_key-code"> Product key-code:</label>
+							<input type="number" id="txt_product_key-code" name="product_key-code">
+							
+							<label for="txt_date-of-purchase"> Date of purchase:</label>
+							<input type="date" id="txt_date-of-purchase" name="product_date-of-purchase">
+							
+							<label for="product_receipt"> Product receipt:</label>
+							<input type="file" id="product_receipt" name="product_product-receipt">
+
+							<br>
+							<br>
+							<label for="txt_textfield"> Your message:</label>
+							<br>
+							<textarea type="textarea" id="txt_textfield" name="user_text" cols="193" rows="7">Tell us what this is about</textarea>
+
+						</fieldset>
+						<br>
+						<button type="submit">Submit</button>
+
+					</fieldset>
+				</form>
+            </section>
+
+		</main>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<!-- Logo -->
+			<a href="#">
+				<img src="images/head_icon.png" alt="#" width="10%">
+				<h1>Clothes Eshop</h1>
+			</a>
+			<p>This site is the first of its kind. It is an online shop <br>
+				selling digital cloth-wear for your virtual reality characters.<br>
+				It is compatible with Meta | Social Metaverse Company. <br>
+				It is the go to place if you want to find the latest <br>
+				fashion designs for your favorite VR characters.</p>
+			<p>Got Question? Call us 24/7 <a href="tel:030210600XXXX">+030 210 600 XXXX</a></p>
+			<h4>Information</h4>
+				<ul>
+					<li><a href="about-us.html">About Us</a></li>
+					<li><a href="contact-us.html">Contact Us</a></li>
+					<li><a href="#">Help</a></li>
+					<li><a href="#">Faq</a></li>
+					<li><a href="#">Terms & Conditions</a></li>
+				</ul>
+			<h4>Customer Service</h4>
+				<ul>
+					<li><a href="#">Payment Methods</a></li>
+					<li><a href="#">Money-back</a></li>
+					<li><a href="#">Returns</a></li>
+					<li><a href="#">Shipping</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+				</ul>
+			<h4>Get In Touch</h4>
+				<ul>
+					<li><address>Patision 76, PC 104 34, Athens</address></li>
+					<li><a href="mailto:info@clothesshop.com">info@clothesshop.com</a></li>
+					<li><a href="tel:030210600XXXX">+030 210 600 XXXX</a></li>
+				</ul>
+				<ul>
+					<li><a href="#"><img src="images/instagram.png" alt="#" width="2%"></a></li>
+					<li><a href="#"><img src="images/facebook.png" alt="#" width="2%"></a></li>
+					<li><a href="#"><img src="images/twitter.png" alt="#" width="2%"></a></li>
+				</ul>
+			<p>Copyright © 2022 - Vlachos Nikiforos p3170018 | Bakti Marianna p3190128 - All Rights Reserved.</p>
+		</footer>
+	</body>
+</html>
